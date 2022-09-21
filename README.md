@@ -4,6 +4,7 @@ AutosRUs is prototyping the new product line MechaCar.  Production troubles are 
 
 ## Linear Regression to Predict MPG
 An analysis of 50 prototypes, their MPG ratings, and other statistical measures produces an overall R-squared value of 0.71 and a significantly small p-value.
+
 ![D1_MPG_Linear_Regression](https://user-images.githubusercontent.com/106561880/191399042-ce7aa5bf-616e-46e3-bdfd-46b52ce3bade.png)
 
 As seen from the results, there are 3 coefficients that provide a non-random amount of variance to the mpg values in the dataset: the **(Intercept)**, **vehicle_length**, and **ground_clearance**.  The probability of each is exceptionally small, as notated by the negative numbers in the scientific notation (see column Pr(>|t|)).  
